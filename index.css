@@ -6,6 +6,7 @@ body {
   font-family: "Roboto Mono", monospace;
   min-width: 325px;
   background-color: #000;
+  text-align: center;
 }
 
 .button {
@@ -74,8 +75,9 @@ body {
     -webkit-text-fill-color: transparent;
     animation: textanimation 10s linear infinite;
     display: inline-block;
-    font-size: 1.5em;
     text-align: center;
+    font-size: 1.5em;
+    
   }
 
   @keyframes textanimation {
